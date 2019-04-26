@@ -543,7 +543,7 @@ Para iso faise a chamada incluíndo a `pandoc-citeproc`:
 
 > pandoc -S -o texto.odt --filter pandoc-citeproc texto.md
 
-# Editando libros e outros tipos de formatos {#libros}
+# Editando libros e outros tipos de formatos
 
 Elaboráronse diferentes recursos para traballar no noso computador e crear libros ou guías usando para case todos os casos Markdown e nalgún caso empregando os recursos de `pandoc`. Unhas suxestións para editar no noso computador libros ou documentos avanzados son as seguintes:
 
