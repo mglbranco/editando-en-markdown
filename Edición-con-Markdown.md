@@ -1,34 +1,36 @@
 # Markdown
 
-**Markdown** ([^](https://en.wikipedia.org/wiki/Markdown)) é unha lingua de marcado simple (_lightweight markup language_) que lle da  formato ao texto de documentos de texto plano. Isto é, unah convención para estruturar semanticamente documentos de texto plano. Esta linguaxe creouna John Gruber[^JB] en 2004, colaborando con Aaron Swartz, coa intención de simplificar a escritura de documentos HTML. A súa finalidade sería a crear dun xeito sinxelo webs, e tamén textos ou notas, cunha linguaxe que sexa sinxela pero que teña un certo potencial para a edicións. A súa sintaxe está pensada para ser lexible e e que non interrompa, isto é, que os seus ficheiros sexan facilmente lexibles. O uso desta linguaxe en páxinas como Reddit ou Github deulle creto desde o seu comezo e fíxoa popular.
+**[Markdown]((https://en.wikipedia.org/wiki/Markdown))** é unha lingua de marcado simple (_lightweight markup language_) que lle da formato aos documentos de texto plano. Isto é, unha convención para estruturar semanticamente documentos de texto plano. Esta linguaxe creouna John Gruber[^1] en 2004, colaborando con Aaron Swartz, coa intención de simplificar a escritura de documentos HTML. A súa finalidade sería a crear dun xeito sinxelo webs, e tamén textos ou notas, cunha linguaxe que fose sinxela pero que tivese un certo potencial para a edicións. A súa sintaxe está pensada para ser lexible e que non interrompa, isto é, que os seus ficheiros sexan faciles de ler. O uso desta linguaxe en páxinas como Reddit ou Github deulle creto desde o seu comezo e fíxerona popular.
 
-A convección de Markdown ten algunhas variantes, ou *supersets* deseñadas para contextos específicos, como blogues ou repositorios de código. Á sintaxe básica de Gruber engádenlle compoñentes como táboas ou  bloques de código. Aquí cabe mencionar as principais que son [CommonMark](http://commonmark.org/), [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/), [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/) e [MultiMarkdown](http://fletcherpenney.net/multimarkdown/). Amais disto, existe unha adaptación de adaptación de Markdown para [pandoc](https://pandoc.org/), que é un convertor universal de linguaxes de marcado. Pandoc precisa dun ficheiro [YAML](https://yaml.org/) que lle dá información cos seus metadatos útil para as conversións de formatos.
+A convección de Markdown ten algunhas variantes, ou *supersets*, deseñadas para contextos específicos, como blogues ou repositorios de código. Á sintaxe básica de Gruber engadíronselle compoñentes como táboas ou bloques de código. Aquí cabe mencionar as principais que son [CommonMark](http://commonmark.org/), [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/), [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/) e [MultiMarkdown](http://fletcherpenney.net/multimarkdown/). Amais disto, existe unha adaptación de Markdown para [pandoc](https://pandoc.org/), que é un conversor universal de linguaxes de marcado. Pandoc precisa dun ficheiro [YAML](https://yaml.org/) xa que lle dá información cos seus metadatos, útil para as conversións de formatos.
 
-Sobre do código que podemos incluír en Markdown, cabe citar que hai implementacións de linguaxes como [R](https://cran.r-project.org/), que se emprega en estatística e análise de datos, e que permiten xerar libros dixitais e dinámicos. Para o caso de R ese formato é [RMarkdown](https://rmarkdown.rstudio.com/).
+Sobre do código que podemos incluír en Markdown, cabe citar que hai implementacións de linguaxes como [R](https://cran.r-project.org/), que se emprega en estatística e análise de datos, e que permiten xerar libros dixitais e dinámicos. Para o caso de R ese formato adaptado é [R Markdown](https://rmarkdown.rstudio.com/).
 
 ## Introdución a Markdown 
 
-A edición en Markdown faise en textos planos aos que se lles dá a extensión _.md_ ou _.markdown_. Estes ficheiros en formato Markdown procésanse con intérpretes (ou _parser_) que xeran documentos [HTML](https://www.w3.org/TR/html52/). Eses ficheiros HTML pódense procesar e converter en formatos como PDF ou epub. Isto é:
+A edición en Markdown faise en textos planos aos que se lles dá a extensión _.md_ ou _.markdown_. Estes ficheiros en formato Markdown procésanse con intérpretes (ou _parsers_) que xeran documentos [HTML](https://www.w3.org/TR/html52/). Eses ficheiros HTML pódense procesar e converter en formatos como PDF ou epub. Isto é:
 
-1. Edítanse documentos con extensión .md ou .markdown en editores de texto
-2. Ábrense e convértense eses ficheiros en documentos HTML en editores de Markdown
+1. Edítanse documentos con extensión _.md_ ou _.markdown_ en editores de texto,
+2. Ábrense e convértense eses ficheiros en documentos HTML usando editores de Markdown, e
 3. Visualízanse en HTML no navegador web ou convértense noutros formatos como PDF.
 
 ![Proceso de markdown](https://github.com/mattcone/markdown-guide-book/blob/master/manuscript/images/process.png)
 
 ### Editores de Markdown
-Sendo Markdown dunha sintaxe simple, podemos facer edición en case calquera editor de texto. De feito a idea xeral de Markdown é usar etiquetas fáciles de lembrar e editar.
-Así, podemos editar nesta linguaxe no noso computador usando:
+
+Sendo Markdown dunha sintaxe simple, podemos facer edicións en case calquera editor de texto. De feito a idea xeral de Markdown é usar etiquetas fáciles de lembrar e editar.
+
+Así que podemos editar nesta linguaxe no noso computador usando:
 - [vim](http://www.vim.org/),
 - [GNU Emacs](https://www.gnu.org/software/emacs/)
+- [kate](https://kate-editor.org/)
+- [gedit](https://wiki.gnome.org/Apps/Gedit)
 - [atom](https://atom.io/)
 - [Zettler](https://www.zettlr.com/)
 - [ReText](https://github.com/retext-project/retext)
-- [kate](https://kate-editor.org/)
-- [gedit](https://wiki.gnome.org/Apps/Gedit)
 - ou [LibreOffice](https://gl.libreoffice.org/)
 
-e tamén en liña almacenándoos na nube e editándoos alí ou con editores en liña como:
+E tamén creándoos ou almacenándoos na nube e editándoos alí con editores en liña como:
 - [CodiMD](https://demo.codimd.org/)
 - [Dillinger](https://dillinger.io/)
 - [hackmd.io](https://hackmd.io)
@@ -40,7 +42,7 @@ Markdown está presente en plataformas como [Github](http://github.com/) e [Gitl
 
 ### Sobre Markdown e HTML
 
-Xa que Markdown pretende ter unha sintaxe sinxela e está deseñado para a escritura na web, non ten todas as carácterísticas que HTML ten. Markdown está pensado para substituír un número pequeno de etiquetas HTML de todas as que existen. Mais, dentro dun texto en Mardown pódense incluír sen problema bloques de HTML. As únicas restricións serán as dos elementos que determinan os bloques (coomo `<div>`, `<table>`, `<pre>` ou `<p>`).
+Xa que Markdown pretende ter unha sintaxe sinxela e está deseñado para a escritura na web, non ten todas as carácterísticas que HTML ten. Markdown está pensado para substituír a un número pequeno de etiquetas HTML de todas as que existen. Porén, dentro de texto en Markdown pódense incluír sen problema bloques de HTML. As únicas restricións serán as dos elementos que determinan os bloques (como `<div>`, `<table>`, `<pre>` ou `<p>`).
 
 O introducir código HTML en ficheiros en Markdown soe ser útil no caso das imaxes e ligazóns.
 
@@ -48,15 +50,15 @@ O introducir código HTML en ficheiros en Markdown soe ser útil no caso das ima
 
 ### Cabeceiros
 
-Os títulos e cabeceiros dos documentos engádense empregando símbolo (`#`) diante da frase.
+Os títulos e cabeceiros dos documentos engádense empregando o símbolo (`#`) diante da frase.
 
 | Markdown            		     | HTML                       |
 |--------------------------------|----------------------------|
-| `# Nivel de cabeceiro 1`       | `<h1>Nivel de cabeceiro 1</h1>`|
+| `# Nivel de cabeceiro 1`       | `<h1>Nivel de cabeceiro 1</h1>` |
 | `## Nivel de cabeceiro 2`      | `<h2>Nivel de cabeceiro 2</h2>` |
 | `### Nivel de cabeceiro 3`     | `<h3>Nivel de cabeceiro 3</h3>` |
 | `#### Nivel de cabeceiro 4`    | `<h4>Nivel de cabeceiro 4</h4>` |
-| `##### Nivel de cabeceiro`     | `<h5>Nivel de cabeceiro 5</h5>` |
+| `##### Nivel de cabeceiro 5`   | `<h5>Nivel de cabeceiro 5</h5>` |
 
 Tamén se poden editar incluíndo por debaixo das liñas de texto os carácteres `==` para o cabeceiro principal e `--` para o cabeceiro secundario. O número de elementos na liña, isto é `==` ou `=====`, non importa para a edición.
 
@@ -69,18 +71,19 @@ Tamén se poden editar incluíndo por debaixo das liñas de texto os carácteres
 | `--------------------`         |                                        |
 
 ### Parágrafos
+
 Para crear un parágrafo novo abonda con separar as liñas con unha ou máis liñas en branco. Esas liñas en branco non poden conter espazos ou tabulacións.
 
 ~~~~~~~
 Velaquí o primeiro parágrafo.
 
-E velaquí o segundo.
+E velaquí o segundo parágrafro.
 ~~~~~~~
 
 ~~~~~~~
 <p>Velaquí o primeiro parágrafo.</p>
 
-<p>E velaquí o segundo.</p>
+<p>E velaquí o segundo parágrafo.</p>
 ~~~~~~~
 
 ### Saltos de liña
@@ -88,8 +91,8 @@ E velaquí o segundo.
 Os saltos de liña, que en HTML son `<br>`, créanse engadindo un ou máis espazos ao final da liña.
 
 ~~~~~~~
-Velaquí a primeira liña.
-E velaquí a segunda liña.
+Velaquí a primeira liña.   <!--- --->
+E velaquí a segunda liña.   
 ~~~~~~~
 
 ~~~~~~~
@@ -97,7 +100,7 @@ E velaquí a segunda liña.
 E velaquí a segunda liña.</p>
 ~~~~~~~
 
-### Resaltando texto
+### Resaltado de texto
 
 O texto pódese subliñar engadindo **grosas** ou *cursivas*.
 
@@ -129,27 +132,27 @@ No caso de querer subliñar unha frase con grosa e cursiva de par, destacándoo 
 
 ### Mencións
 
-Cando se quere facer unha mención, unha cita, dunha frase ou algún outro elemento no texto emprégase un `>` diante do parágrafo.
+Cando se quere facer unha mención, isto é, unha cita dunha frase ou algún outro elemento no texto emprégase un `>` diante do parágrafo.
 
 ~~~~~~~
-> ... I think all the grand leading facts of geographical distribution are explicable on the theory of migration (generally of the more dominant forms of life), together with subsequent modification and the multiplication of new forms.(*On the Origin of Species*, C. Darwin)
+> ... Entendo que os gran e determinantes e feitos da distribución xeográfica son explicables coa teoría da migración (polo xeral das formas de vida máis dominantes), xunto cos posteriores cambios e multiplicacións das novas formas. (*A orixe das especies*, Ch. Darwin)
 ~~~~~~~
 
 ~~~~~~~
 <blockquote>
-  <p>... I think all the grand leading facts of geographical distribution are explicable on the theory of migration (generally of the more dominant forms of life), together with subsequent modification and the multiplication of new forms. (<i>On the Origin of Species</i>, C. Darwin)</p>
+  <p>... Entendo que os gran e determinantes e feitos da distribución xeográfica son explicables coa teoría da migración (polo xeral das formas de vida máis dominantes), xunto cos posteriores cambios e multiplicacións das novas formas. (<i>A orixe das especies</i>, Ch. Darwin)</p>
 </blockquote>
 ~~~~~~~
 
 Iso no texto verase como:
 
-> ... I think all the grand leading facts of geographical distribution are explicable on the theory of migration (generally of the more dominant forms of life), together with subsequent modification and the multiplication of new forms. (*On the Origin of Species*, C. Darwin)
+> ... Entendo que os gran e determinantes e feitos da distribución xeográfica son explicables coa teoría da migración (polo xeral das formas de vida máis dominantes), xunto cos posteriores cambios e multiplicacións das novas formas. (*A orixe das especies*, Ch. Darwin)
 
 ### Listas
 
-As listas poden ser de elementos nos que non importa a súa orde e nos que se marcan unha orde.
+As listas poden ser de elementos nos que non importe a súa orde ou nos que si se marque unha orde.
 
-Ás **listas ordenadas** créanse cos números seguidos dun punto (.). Inda que comecemos a lista cun número calquera, e mesmo desordenados, a lista sempre comezará polo número 1.
+Ás **listas ordenadas** créanse cos números seguidos dun punto (`.`). Inda que comecemos a lista cun número calquera, e mesmo desordenados, a lista sempre comezará polo número 1.
 
 ~~~~~~~
 1. Primeiro elemento
@@ -160,6 +163,7 @@ As listas poden ser de elementos nos que non importa a súa orde e nos que se ma
 1. Segundo elemento
 1. Terceiro elemento
 ~~~~~~~
+
 Visto en HTML  eses dous exemplos seguen este marcado:
 
 ~~~~~~~
@@ -231,7 +235,10 @@ No documento verase así:
     2. Segundo elemento indentado
 3. Cuarto elemento
 
+As listas con orde e sen orde pódense mesturar, i.e, nun elemento dunha lista ordenada introducirmos unha lista sen orde.
+
 #### Listas de definicións
+
 Algúns editores de Markdown permiten crear listas de definicións, como pode ser o caso dun dicionario.
 
 ~~~~~~~
@@ -275,7 +282,8 @@ O ***[software libre](https://gl.wikipedia.org/wiki/Software_libre "O movemento 
 ~~~~~~~
 
 #### URLs e correos electrónicos
-Pódense engadir con facilidade ligazóns a a webs ou correos acollendo o texto entre corchetes:
+
+Pódense engadir con facilidade ligazóns a webs ou correos electrónicos acollendo o texto entre corchetes:
 
 ~~~~~~~
 <https://trasno.gal>
@@ -288,6 +296,7 @@ Pódense engadir con facilidade ligazóns a a webs ou correos acollendo o texto 
 ~~~~~~~
 
 ### Imaxes
+
 As imaxes engádense empregando `![alt text](/o/seu/cartafol/imaxe.png)`. Entre os `[]` inclúese a descrición da imaxe e entre os `()` o cartafol que contén a imaxe, ou ULR a esta. Despois do `!` veñen os corchetes que levan o atributo `alt` de texto para esa imaxe. Entre os parénteses, `()`, indícase o cartafol onde se atopa a imaxe, que pode estar en local ou na web.
 
 ~~~~~~
@@ -303,7 +312,7 @@ Markdown non acepta carácterísticas propias para indicar as dimensións da ima
 
 ### Código fonte
 
-Cando se quere mostrar código dunha linguaxe de programación empréganse  a caixa ``código``. A sintaxe do código resaltarase. Como exemplo:
+Cando se quere mostrar código en liña dunha linguaxe de programación empréganse a caixa ``código``. A sintaxe do código resaltarase. Como exemplo:
 
 ~~~~~~~
 O cartafol de traballo obtense empregando `getwd()`.
@@ -314,9 +323,10 @@ O cartafol de traballo obtense empregando <code>getwd()</code>.
 ~~~~~~~
 
 Iso visualízase deste xeito:
+
 > O cartafol de traballo obtense empregando `getwd()`.
 
-Pódende abrir esas caixas de código indicando a linguaxe da que se trata. Existen implementacións para bash, C, [Julia](https://julialang.org/), [Python](https://www.python.org/), [R](https://cran.r-project.org/) ou [SQL](https://gl.wikipedia.org/wiki/SQL) entre outras[^llang]. Uns exemplos son:
+Pódende abrir esas caixas de código indicando a linguaxe da que se trata. Existen implementacións para bash, C, [Julia](https://julialang.org/), [Python](https://www.python.org/), [R](https://cran.r-project.org/) ou [SQL](https://gl.wikipedia.org/wiki/SQL) entre outras[^2]. Uns exemplos son:
 
 ~~~~~
 ```{r}
@@ -333,9 +343,10 @@ print(y)
 
 ### Escape de formato
 
-Cando se editan listas con elementos variados ou se introduce código hai veces nas se necesita omitir algún carácter que si emprega Markdown con algunha finalidade.  Nesta linguaxe o elemento que nos permite saltar un carácter concreto que daría unha orde é o  `\` diante dese carácter a omitir.
+Cando se editan listas con elementos variados ou se introduce código, hai veces nas se necesita omitir algún carácter que si emprega Markdown para algunha finalidade. Nesta linguaxe o elemento que nos permite saltar un carácter concreto e que daría unha orde é o `\`, que ten que ir por diante do carácter a omitir.
 
 Como exemplo:
+
 ~~~~~~~
 \* Sen a barra inversa estariamos a introducir unha lista
 E sen a barra inversa teríamos unha palabra en \*cursiva\*.
@@ -364,13 +375,19 @@ Pódense crear liñas horizontais e crear bloques de texto empregando de tres en
 
 ## Táboas
 
-As táboas créansen empregando máis de tres guións a cada cabeceiro separadas por barras verticais (`|`). O primeiro define a columna e o seguindo define onde separalas columnas continuas. Aínda que o número de guións ou o espazaado que lle deamos ás columnas sexa diferente, veranse iguais.
+As táboas créansen empregando máis de tres guións a cada cabeceiro separadas por barras verticais (`|`). O primeiro define a columna e o segundo define onde separar as columnas continuas. Aínda que o número de guións ou o espazado que lle deamos ás columnas sexa diferente, estas veranse iguais.
 
 ~~~~~~~
-| Sintaxe     | Descrición |
+| Sintaxe     | Descrición  |
 | ----------- | ----------- |
 | Cabeceiro   | Título      |
 | Parágrafo   | Texto       |
+~~~~~~~
+~~~~~~~
+| Sintaxe | Descrición |
+| ----------- | ----------- |
+| Cabeceiro | Título |
+| Parágrafo | Texto |
 ~~~~~~~
 
 ~~~~~~~
@@ -396,7 +413,7 @@ As táboas créansen empregando máis de tres guións a cada cabeceiro separadas
 
 Esa táboa mostrarase así:
 
-| Sintaxe     | Descrición |
+| Sintaxe     | Descrición  |
 | ----------- | ----------- |
 | Cabeceiro   | Título      |
 | Parágrafo   | Texto       |
@@ -406,10 +423,10 @@ O formato das táboas pode levar cursivas ou grosas, ligazóns e código, mais s
 A unha columna pódeselle dar un aliñamento do texto que contén deixando un `:` á dereita ou esquerda, ou nos dous lados, de varios `-`. Un exemplo sería:
 
 ~~~~~~~
-| Especie     | Clase       | Familia     |
+| Especie     | Clase       | Familia       |
 | :---        |    :----:   |          ---: |
 | Chaetoceros_laciniosus  | Bacillariophyceae | Chaetocerotaceae  |
-| Dinophysis acuta  |  Dinoflagellata |  Dinophysis |
+| Dinophysis acuta        | Dinoflagellata    |  Dinophysis       |
 ~~~~~~~
 
 Que se verá deste deito:
@@ -419,14 +436,13 @@ Que se verá deste deito:
 | Chaetoceros_laciniosus  | Bacillariophyceae | Chaetocerotaceae  |
 | Dinophysis acuta  |  Dinoflagellata |  Dinophysis |
 
-Crear táboas soe ser complexo pero existen ferramentas para converter e crear táboas en liña, como é [Tables Generator](http://www.tablesgenerator.com/markdown_tables). Nesa web pódense converter táboas entre os formatos de LaTeX, Wikidata e Markdown.
+Crear táboas soe ser complexo pero existen ferramentas para converter e crear táboas en liña. En [Tables Generator](http://www.tablesgenerator.com/markdown_tables) pódense converter táboas entre os formatos de LaTeX, Wikidata e Markdown.
 
 ## Notas de rodapé
 
-Cando se escribe, pódense engadir notas de rodapé coa súa ligazón nun punto concreto do texto. Esas notas engadidas estarán ligadas a esa palabra que desexamos e amosaranse cunha ligazón que dirixe á nota.
+Nalgúns editores, cando se escribe pódense engadir notas de rodapé coa súa ligazón nun punto concreto do texto. Esas notas engadidas estarán ligadas coa palabra que se queira e amosaranse cunha ligazón que dirixe á nota.
 
-Para crealas abonda con engadir un identificador único dentro de corchetes (`[^a]`).
-Os identificadores teñen que ser únicos e poden ser unha palabra ou número sen espazos ou tabuladores. Ao fina do texto estas notas de rodapé veranse en orde segundo se citasen.
+Para crealas abonda con engadir un identificador único dentro de corchetes (`[^a]`). Os identificadores teñen que ser únicos e poden ser unha palabra ou número sen espazos ou tabuladores. Ao final do texto estas notas de rodapé veranse en orde segundo se citasen.
 
 ~~~~~~~
 > *Hai unha grandeza nesta visión da vida que, coas súas diferentes forzas, se orixinou nunhas poucas formas ou nunha soa; e que, mentres este planeta estivo orbitando seguindo a constante lei da gravidade, a partir dun tan simple inicio as formas máis belas e máis marabillosas foron, e están, evolucionando.*[^H1859]
@@ -434,19 +450,17 @@ Os identificadores teñen que ser únicos e poden ser unha palabra ou número se
 [^1]: Charles Darwin, 1859.
 ~~~~~~~
 
-> *Hai unha grandeza nesta visión da vida que, coas súas diferentes forzas, se orixinou nunhas poucas formas ou nunha soa; e que, mentres este planeta estivo orbitando seguindo a constante lei da gravidade, a partir dun tan simple inicio as formas máis belas e máis marabillosas foron, e están, evolucionando.*[^H1859]
-
-
 ## Identificadores de seccións
 
-Moitos dos editores de Markdown aceptan que se lle dea un identificador a cada seccións dos nosos documentos. Estes introdúcense seguindo ao texto co cabeceiro tal que: [cabeceiro](#identificador) . Con estes cabeceiros podemos crear ligazóns internas no texto para citar calquera apartado. A cita á sección faise empregando [texto a ligar](#identificador)
+Moitos dos editores de Markdown aceptan que se lle dea un identificador a cada seccións dos nosos documentos. Estes introdúcense seguindo ao texto co cabeceiro tal que: [cabeceiro](#identificador). Con estes cabeceiros podemos crear ligazóns internas no texto para citar calquera apartado. A cita á sección faise empregando [texto a ligar](#identificador)
 
 ## Markdown e YAML
+
 Nos cabeceiros dos ficheiros de Markdown pódense introducir metainformación que nos permita definir certos valores útiles. Esa información introdúcese coa sintaxe de [YAML](https://yaml.org/) (*YAML Ain’t Markup Language*), un estándar sinxelo de metainformación para todas as linguaxes de programación.
 
 As variables que se introduzan nun bloque YAML nun ficheiro `.md` vainas empregar `pandoc` no seu traballo de conversión.
 
-O formato YAML consiste nun bloque entre guións, `(---)`, e que contén mínimo esta información:
+O formato YAML consiste nun bloque entre guións, `(---)`, e que contén como mínimo esta información:
 
 ~~~~~~~
 ---
@@ -468,14 +482,15 @@ Nese ficheiro é onde se poden indicar datos de saída dos documentos Markdown. 
 ---
 ~~~~~~~
 
-Esta información do ficheiro YAML emprégana algúns editores ou IDEs como RStudio, caso do formato `.Rmd`.
+Esta información do ficheiro YAML emprégana algúns editores ou IDEs como RStudio, caso do formato R Markdown (`.Rmd`).
 
 # Pandoc e Markdown
 
 ## Pandoc
-[Pandoc](https://pandoc.org/) é un conversor universal de formatos. Como din no proxecto, é unha *navalla-suíza* para automatizar a conversión entre ducias de formatos. Ten implementadas linguaxes de marcado como Markdown, LaTeX, marcado wiki como MediaWiki ou DokuWiki,PDF e formato de documentos como ODT ou OpenDocument XML.
 
-A súa dinámica esencial de `pandoc` é indicar:
+[Pandoc](https://pandoc.org/) é un conversor universal de formatos. Como din no proxecto, é unha *navalla-suíza* para automatizar a conversión entre ducias de formatos. Ten implementadas linguaxes de marcado como Markdown, LaTeX, marcado wikicomo MediaWiki ou DokuWiki, PDF e formato de documentos como ODT ou OpenDocument XML.
+
+A dinámica esencial de `pandoc` é indicar:
 
 > pandoc -o saida.ficheiro entrada.ficheiro
 
@@ -483,16 +498,18 @@ Onde `-o` indica cal debe ser o formato de saída do ficheiro que queremos conve
 
 No caso dos ficheiros PDF, o conversor `pandoc` segue este proceso de conversión:
 
-> Markdown -> Latex -> Formatos de referencias bibliográficas -> PDF
+> Markdown -> LaTeX -> Formatos de referencias bibliográficas -> PDF
 
 ## Conversión de Markdown
 
 Empregando `pandoc` podemos converter os ficheiros `.md` en case calquera formato.
 
 Así, para converter un `.md` en formato HTML5:
+
 > pandoc -f markdown -t html5 -o saida.html entrada.md -c estilo.css
 
 Para converter un `.md` en ficheiro de texto `.odt`, editable en LibreOffice:
+
 > pandoc -s saida.odt -t markdown -o entrada.md
 
 E se se quere crear un ficheiro PDF precisaremos de ter instalado e configurado LaTeX no equipo. O proceso de conversión neste caso é:
@@ -503,7 +520,7 @@ E se se quere crear un ficheiro PDF precisaremos de ter instalado e configurado 
 
 O uso de referencias bibliográficas é algo común en moitos campos, como no sector académico. As citas académicas soen incluírse nos textos cun estilo concreto, estándarizado.
 
-Polo xeral sóense empregar xestores de bibliografía para almacenar as referencias de interese. Unha das mellores opcións, e de software libre, é [Zotero](https://www.zotero.org/). Con aplicativos como Zotero pódense xestionar coleccións de referencias e exportar a ficheiros de bibliografía, como os do formato BibTeX (`.bib`). 
+Polo xeral sóense empregar xestores de bibliografía para almacenar as referencias de interese. Unha das mellores opcións, e de software libre, é [Zotero](https://www.zotero.org/). Con aplicativos como Zotero pódense xestionar coleccións de referencias e exportar a ficheiros de bibliografía, *i.e.* como o formato BibTeX (`.bib`). 
 
 ![Exportando citas a .bib](imaxes/zotero.png)
 
@@ -524,7 +541,7 @@ Nese formato gárdanse as citas deste xeito:
 
 Cada cita ten o seu identificador único, que no caso do exemplo anterior é `margalef_fitoplancton_1955`. Ese identificador pódense empregar na escritura engadíndolle un `@`, isto é `@margalef_fitoplancton_1955`.
 
-Unha vez teñamos o texto coas referencias incluídas (`@id`) e o ficheiro `.bib` que as conteña, pódesenlle indicar a `pandoc`:
+Unha vez teñamos o texto coas referencias incluídas (`@id`) e o ficheiro `.bib` que as conteña, pódesenlle indicar a `pandoc` onde se ubica:
 
 ~~~~~~~
 ---
@@ -535,29 +552,25 @@ Unha vez teñamos o texto coas referencias incluídas (`@id`) e o ficheiro `.bib
 ---
 ~~~~~~~
 
-Para procesar as referencias bibliográficas `pandoc` precisa da instalación de `pandoc-citeproc`.
-
-Con ese engadido, cando se faga a chamada a `pandoc`, este buscará o ficheiro que conteña as referencias e procesaraas no texto.
-
-Para iso faise a chamada incluíndo a `pandoc-citeproc`:
+Para procesar as referencias bibliográficas `pandoc` precisa da instalación de `pandoc-citeproc`. Con ese engadido, cando se faga a chamada a `pandoc`, este buscará o ficheiro que conteña as referencias e procesaraas no texto. Para iso faise a chamada incluíndo a `pandoc-citeproc`:
 
 > pandoc -S -o texto.odt --filter pandoc-citeproc texto.md
 
-# Editando libros e outros tipos de formatos
+# Editando libros e outros tipos de formatos {#libros}
 
-Elaboráronse diferentes recursos para traballar no noso computador e crear libros ou guías usando para case todos os casos Markdown e nalgún caso empregando os recursos de `pandoc`. Unhas suxestións para editar no noso computador libros ou documentos avanzados son as seguintes:
+Arestora hai elaboradoros diferentes recursos para traballar no noso computador e crear libros ou guías baseados, en boa parte, en Markdown. Nalgún caso empregan os recursos de `pandoc`. Unhas suxestións para editar no noso computador libros ou documentos avanzados son as seguintes:
 
 * [Pandoc Book Template](https://github.com/wikiti/pandoc-book-template): un modelo esencial para a escritura de libros electrónicos (*ebooks*).
 
-* [Wordsmith](https://github.com/amedrz/wordsmith): un modelo que fai uso de Ruby que permite crear e publicar libros eletrónicos, guías ou manuais.
+* [Wordsmith](https://github.com/amedrz/wordsmith): un modelo que fai uso de Ruby que permite crear e publicar libros electrónicos, guías ou manuais.
 
-* [PhD thesis in Markdown](https://github.com/tompollard/phd_thesis_markdown): un modelo en Markdown con algunha parte en LaTeX para a escritura de teses doutorais ou libros avanzados.
+* [PhD thesis in Markdown](https://github.com/tompollard/phd_thesis_markdown): un modelo en Markdown con algunha parte en LaTeX pensado para a escritura de teses doutorais e libros similares en estrutura.
 
-Para aqueles que queiran crear libros e documentos dinámicos onde os gráficos xoguen un papel relevante, existe [bookdown](https://bookdown.org/yihui/bookdown/). `bookdown` é un paquete para a linguaxe de programación R que permite crear documentos HMTL, PDF ou epub en R Markdown. Este recurso permite incluír gráficos dinámicos e aplicacións coas que interaccionar e acepta o uso doutras linguaxes como C/C++, Python,Julia ou SQL. Os libros creados nesta libraría de R pódense publicar de xeito automático na web [bookdown.org](https://bookdown.org).
+Para aqueles que queiran crear libros e documentos dinámicos onde os gráficos xoguen un papel relevante, existe [bookdown](https://bookdown.org/yihui/bookdown/). Como se indicara, `bookdown` é un paquete para a linguaxe de programación R que permite crear documentos HMTL, PDF ou epub en `R Markdown`. Este recurso permite incluír gráficos dinámicos e aplicacións coas que interaccionar e acepta o uso doutras linguaxes como C/C++, Python, Julia ou SQL. Os libros creados nesta libraría de R pódense publicar de xeito automático na web [bookdown.org](https://bookdown.org).
 
-Do mesmo xeito, [GitBook](https://www.gitbook.com/) é un servizo que permite publicar desde Git e GitHub libros creados con Mardown.
+Do mesmo xeito, [GitBook](https://www.gitbook.com/) é un servizo que permite publicar desde Git e GitHub libros creados con Markdown.
 
-Ademais, os editores en liña de Markdown (véxase {#editores}) dispoñen de modelos ou outros recursos interesantes para crear diferentes tipos de documentación.
+Ademais, os editores en liña de Markdown dispoñen de modelos ou outros recursos interesantes para crear diferentes tipos de documentación.
 
 Os seguintes editores en liña de Markdown permiten ademais:
 - [hackmd.io/](https://hackmd.io/): crear modelos de presentacións orais e libros.
@@ -566,6 +579,7 @@ Os seguintes editores en liña de Markdown permiten ademais:
 # Resumo
 
 ## Sintaxe básica
+
 A sintaxe que definiou J. Gruber é a seguinte:
 
 | Elemento          | Sintaxe Markdown                                     |
@@ -598,6 +612,7 @@ A sintaxe que definiou J. Gruber é a seguinte:
 
 
 ## Sintaxe avanzada
+
 Á sintaxe básica engadíronselle elementos como os seguintes:
 
 | Elemento          | Sintaxe Markdown                                     |
@@ -606,11 +621,11 @@ A sintaxe que definiou J. Gruber é a seguinte:
 |                   | \`---\` para filas`                                    |
 |-------------------|------------------------------------------------------|
 | Bloques de código | \`\`\`                                     |
-|                   | \`{\`\                                                 |
+|                   | \`{                                                 |
 |                   |    x = pi                                            |
 |                   |    print(x)                                          |
 |                   |                                                      |
-|                   | \`}\`                                                |
+|                   | }\`                                                |
 |                   | \`\`\`                                   |
 |-------------------|------------------------------------------------------|
 | [Rodapé](#rodape) | `Texto onde se inclúe unha nota. [^1]`               |
@@ -624,11 +639,13 @@ A sintaxe que definiou J. Gruber é a seguinte:
 
 
 # Notas
-[^JB]: Web persoal de John Gruber <http://daringfireball.net/>
 
-[^llang]: A lista completa de linguaxes implementadas pódese atopar aquí: [Yihui: Language engines](https://bookdown.org/yihui/rmarkdown/language-engines.html)
+[1]: Web persoal de John Gruber <http://daringfireball.net/>
+
+[2]: A lista completa de linguaxes implementadas pódese atopar aquí: [Yihui: Language engines](https://bookdown.org/yihui/rmarkdown/language-engines.html)
 
 # Bibliografía
+
 - Dennis Tenen and Grant Wythoff (2014) *Sustainable Authorship in Plain Text using Pandoc and Markdown," The Programming Historian 3*. <https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown>
 
 - Matt Cone (2018) *The comprehensive Markdown reference guide*. <https://www.markdownguide.org/book>
@@ -638,11 +655,15 @@ A sintaxe que definiou J. Gruber é a seguinte:
 # Recursos
 
 * A *documentación oficial* de John Gruber de Markdown: [A guía oficial feita polo creador de Markdown]( https://daringfireball.net/projects/markdown/)
+
 * [Markdown Tutorial](https://www.markdowntutorial.com/): Unha páxina web de código aberto que permite probar Markdown desde o navegador.
+
 * *Awesome Markdown*: A list of Markdown tools and learning resources. <https://github.com/mundimark/awesome-markdown>
-* RMardown de RStudio: *Pandoc Markdown* <https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html>
+
+* RMarkdown de RStudio: *Pandoc Markdown* <https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html>
+
 * *Jekyll*, un xerador de webs estáticas baseado en ficheiros Markdown. <https://jekyllrb.com/>
 
 # Licenza
 
-Este documento ten unha licenza **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. Os fundamentos desta obra baseouse no traballo de M. Cone, que está liberados coa mesma licenza (CC BY-SA 4.0). As condicións da licenza pódense ler en [creativecommons.org/licenses](https://creativecommons.org/licenses/by-sa/4.0/)
+Este documento ten unha licenza **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. Os fundamentos desta obra baséanse no traballo de M. Cone, e que está liberado coa esta mesma licenza (a CC BY-SA 4.0). As condicións da licenza pódense ler en [creativecommons.org/licenses](https://creativecommons.org/licenses/by-sa/4.0/)
