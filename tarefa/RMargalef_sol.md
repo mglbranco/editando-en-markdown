@@ -3,11 +3,11 @@
 <!-- imaxe --->
 ![Ramon Margalef recibindo a Medalla d'Or de la Generalitat de Catalunya de mans de Jordi Pujol](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ramon_Margalef.jpg/640px-Ramon_Margalef.jpg)
 
-**Ramon Margalef i López**, nado en Barcelona no 1919 e finado no 2004, foi un biólogo catalán, profesor emérito da Universidade de Barcelona, que destaca polos seus traballos nos campos da limnoloxía, a oceanografía e a ecoloxía. Margalef foi un dos científicos españois máis destacados en toda a historia.
+**Ramon Margalef i López**, nado en Barcelona no 1919 e finado no 2004, foi un biólogo catalán, profesor emérito da *Universidade de Barcelona*, que destaca polos seus traballos nos campos da limnoloxía, a oceanografía e a ecoloxía. Margalef foi un dos científicos españois máis destacados en toda a historia.
 
-Traballou no *Instituto de Bioloxía Aplicada* (1946–1951) e no Instituto de Investigacións Pesqueiras, que dirixiu dende o ano 1966 ata o 1967. En 1967 converteuse no primeiro profesor de ecoloxía de todo o estado, na Universidade de Barcelona, e creou o primeiro departamento desta liña científica. Ata o ano 1992 foi profesor emérito desta universidade, cando se retirou. Mais Margalef seguiu producindo obra científica ata a súa morte.
+Traballou no *Instituto de Bioloxía Aplicada* (1946–1951) e no *Instituto de Investigacións Pesqueiras*, que dirixiu dende o ano 1966 ata o 1967. En 1967 converteuse no primeiro profesor de ecoloxía de todo o estado, na Universidade de Barcelona, e creou o primeiro departamento desta liña científica. Ata o ano 1992 foi profesor emérito desta universidade, cando se retirou. Mais Margalef seguiu producindo obra científica ata a súa morte.
 
-O seus máis importantes traballos foron a aplicación da teoría da información na ecoloxía e a creación de modelos matemáticos para o estudo de poboacións. Entre as súas obras bibliográficas destacan: 
+O seus máis importantes traballos foron a aplicación da **teoría da información** na ecoloxía e a creación de modelos matemáticos para o estudo de poboacións. Entre as súas obras bibliográficas destacan: 
 1. *Comunidades naturais* (1962), 
 2. *Ecoloxía* (1974), 
 3. *A biosfera* (1980), 
@@ -21,9 +21,9 @@ A súa obra **Sobre dalgúns principios da teoría ecolóxica** (1963) é consid
 
 ![Imaxe conmemorativa de actos tralos dez anos da Morte de Ramón Margalef celebrados na Universidade de Barcelona](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_Ramon_Margalef_410x156.jpg/320px-Logo_Ramon_Margalef_410x156.jpg)
 
-Margalef describiu a sucesión anual do fitoplancto como unha microsucesión e propuxo que a turbulencia das augas seleccionaban ao fitoplancto. Propuxo que en momentos de alta turbulencia no océano as diatomeas gañan pola súa alta capacidade de asimilar nutrientes. Os dinoflaxelados e os cocolitofóridos, dominan as comunidades fitoplanctónicas en augas pobres en nutrientes e sistemas estratificados. Con isto, definiu o Mandala de Margalef, que indica que as especies de fitoplancto son unha adaptación das especies ao dobre gradiente de concentración de nutrientes e da enerxía cinética da turbulencia. Como a turbulencia cambia ao longo do ano, esta determina a sucesión ecolóxica. 
+Margalef describiu a sucesión anual do fitoplancto como unha microsucesión e propuxo que a turbulencia das augas seleccionaban ao fitoplancto. Propuxo que en momentos de alta turbulencia no océano as diatomeas gañan pola súa alta capacidade de asimilar nutrientes. Os dinoflaxelados e os cocolitofóridos dominan as comunidades fitoplanctónicas en augas pobres en nutrientes e sistemas estratificados. Con isto, definiu o *Mandala de Margalef*, que indica que as especies de fitoplancto son unha adaptación das especies ao dobre gradiente de concentración de nutrientes e da enerxía cinética da turbulencia. Como a turbulencia cambia ao longo do ano, determina a sucesión ecolóxica. 
 
-Margalef centrouse na teoría da información e propuxo que a cantidade de información, viva e inanimada, incrementa durante a sucesión ecolóxica. Facendo uso da teoría da información abordou unha das súas preguntas teóricas clásicas na liña de definición da biosfera: o porqué esta é descontinua, fragmentada, en múltiples organismos.
+Margalef centrouse na *teoría da información* e propuxo que a cantidade de información, viva e inanimada, incrementa durante a sucesión ecolóxica. Facendo uso da *teoría da información* abordou unha das súas preguntas teóricas clásicas na liña de definición da [biosfera](https://gl.wikipedia.org/wiki/Biosfera "Artigo de Biosfera na Galipedia."): o porqué esta é descontinua, fragmentada, en múltiples organismos.
 
 Margalef relacionou os cambios evolutivos coa sucesión propoñendo que a evolución implica unha redución no cociente entre a produción e a biomasa, o incremento da eficiencia dos ciclos de nutrientes e o aumento da especialización dun individuo no seu ambiente.
 
@@ -32,18 +32,18 @@ Margalef relacionou os cambios evolutivos coa sucesión propoñendo que a evoluc
 
 Margalef publicou unha ampla cantidade de estudos da Ría de Vigo. Neles describe:
 <!--- crear lista:--->
-* a composición e variacións nas poboacións de fitoplancto e rotíferos 
-* a dinámica poboacional e sucesións
-* pesquería e a sedimentación
-* e ata á limnoloxía e paleontoloxía da ría
+* a composición e variacións nas poboacións de fitoplancto e rotíferos,
+* a dinámica poboacional e sucesións,
+* pesquería e a sedimentación,
+* e ata á limnoloxía e paleontoloxía da ría.
 <!--- --->
 
-O estudo de Margalef *El fitoplancton de la ría de Vigo* (1955) describe por primeira vez o proceso do fenómeno de sucesión nas comunidades fitoplancto en relación con factores ambientais, asentándose nas observacións feitas nas rías galegas.
+O estudo de Margalef *El fitoplancton de la ría de Vigo* (1955) describe por primeira vez o proceso do fenómeno de **sucesión** nas comunidades fitoplancto en relación con factores ambientais, asentándose nas observacións feitas nas rías galegas.
 
-No verán do ano 1953 a visita de Margalef á ría, para estudos nesta, coincidiu cunha marea vermella. Grazas a iso, estudou o ata daquela coñecido vulgarmente como a purga do mar e publicou os resultados nun artigo do 1956. Incide, iso si, sobre do nome do fenómeno ao mencionar que <!--- cita --> 
+No verán do ano 1953 a visita de Margalef á ría, para estudos nesta, coincidiu cunha **marea vermella**. Grazas a iso, estudou o ata daquela coñecido vulgarmente como a *'purga do mar'* e publicou os resultados nun artigo do 1956. Incide, iso si, sobre do nome do fenómeno ao mencionar que <!--- cita --> 
 >...preferimos a denominación hematotalasia introducida por SOBRINO (1918), o primero autor español que escribiu sensatamente acerca diso (*R. Margalef*, 1056)
 
-Todos as mostraxes dos traballos de Margalef na Ría de Vigo realizounas a bordo da pequena embarcación chamada **Lampadena**, que naqueles momentos acabara de chegar ao laboratorio de Vigo do Instituto de Investigacións Pesqueiras, e o que é o actual Instituto de Investigacións Mariñas - CSIC. Un exemplo de poboacións que recolleou na ría é esta de 1951 a 1952:
+Todos as mostraxes dos traballos de Margalef na Ría de Vigo realizounas a bordo da pequena embarcación chamada *Lampadena*, que naqueles momentos acabara de chegar ao laboratorio de Vigo do *Instituto de Investigacións Pesqueiras*, e o que é o actual *Instituto de Investigacións Mariñas - CSIC*. Un exemplo de poboacións que recolleou na ría é esta de 1951 a 1952:
 
 <!-- 
 Crear táboa
@@ -69,7 +69,7 @@ Margalef deixou un enorme legado de literatura científica que se compón de má
 As súas principais obras son:
 
 <!-- lista numérica --->
-1. Margalef R. 1968. Perspectives in ecological theory. University of Chicago Press. Chicago, Ill. 111 p.
+1. Margalef R. 1968. *Perspectives in ecological theory*. University of Chicago Press. Chicago, Ill. 111 p.
 
 2. Margalef R. 1974. *Ecología*. Ed. Omega. Barcelona.
 
